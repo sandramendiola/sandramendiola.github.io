@@ -4,14 +4,23 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
-import Home from "./components/Home";
+import CV from "./pages/CV/CV";
+import Publications from "./pages/Publications/Publications";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <App />,
+  },
+  {
+    path: "/smendiola-cv",
+    element: <CV />,
+  },
+  {
+    path: "/publications",
+    element: <Publications />
   }
 ])
 

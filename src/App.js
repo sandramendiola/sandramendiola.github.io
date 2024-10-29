@@ -1,16 +1,15 @@
 import './App.css';
-import Navbar from "./components/Navbar";
-import {Route, Routes} from "react-router-dom";
-import Home from "./components/Home";
+import Header from './components/Header/Header';
+import Nymph from './assets/nymphs.png';
+import React from "react";
+import AboutMe from "./components/AboutMe/AboutMe";
 
 function App() {
   return (
     <>
-      <h1>Test!</h1>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-      </Routes>
+      <Header />
+      <img src={Nymph} alt={'Nymphs!'} height={300}/>
+      <AboutMe />
     </>
   );
 }
