@@ -24,25 +24,16 @@
   }
 }
 
-.about-me {
+.section {
   display: flex;
+}
+
+.about-me {
   flex-direction: row;
   margin: 80px;
 
-  .about-me-header {
-    font-size: calc(1.3vw + 1rem);
-    font-weight: 500;
-    margin-bottom: 20px;
-  }
-
   .about-me-text {
-    display: flex;
-    flex-direction: column;
     width: 40%;
-    line-height: 1.8rem;
-    font-size: 1rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
   }
 
   .about-me-pic {
@@ -53,4 +44,24 @@
     width: 60%;
     margin-left: 80px;
   }
+}
+
+.section-header {
+  font-size: calc(1.3vw + 1rem);
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.8rem;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.publications-content {
+  margin: 0 80px 80px 80px;
+  flex-direction: column;
 }
