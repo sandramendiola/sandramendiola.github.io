@@ -45,6 +45,6 @@
   "homepage": "https://sandramendiola.github.io",
   "devDependencies": {
     "gh-pages": "^6.2.0",
-    "nth-check": ">=2.0.1"
+    "nth-check": "^2.0.1"
   }
 }
