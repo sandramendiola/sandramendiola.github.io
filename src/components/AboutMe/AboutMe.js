@@ -4,7 +4,7 @@ import Sandra from '../../assets/Mendiola_Sandra_PBEE.jpg';
 const AboutMe = () => {
   return (
     <div className="section about-me">
-      <div className="section-text">
+      <div className="section-text about-me-text">
         <div className="section-header">About Me</div>
         <p>
           I’m currently an NSF Postdoctoral Fellow in the Entomology Department at the University of Georgia. At UGA, I

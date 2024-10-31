@@ -1,3 +1,8 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
 .header {
   display: flex;
   flex-direction: row;
@@ -33,7 +38,7 @@
   margin: 80px;
 
   .about-me-text {
-    width: 40%;
+    width: 40vw;
   }
 
   .about-me-pic {
@@ -41,7 +46,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 60%;
     margin-left: 80px;
   }
 }
@@ -61,7 +65,56 @@
   font-weight: 300;
 }
 
+.cv-content {
+  margin: 0 80px 80px 80px;
+  flex-direction: column;
+}
+
 .publications-content {
   margin: 0 80px 80px 80px;
   flex-direction: column;
+}
+
+.accordion-header {
+  font-family: "Poppins", sans-serif;
+  font-size: calc(0.6vw + 1rem);
+}
+
+.accordion-details {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20% 10px 20%;
+  font-family: "Poppins", sans-serif;
+  font-size: calc(0.2vw + 1rem);
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.community-engagement {
+  flex-direction: column;
+}
+
+.community-engagement-details {
+  display: grid;
+  grid-template-rows: 0.8fr 1fr;
+  grid-template-areas:
+  "image1 image2 image3"
+  "explain1 explain2 explain3";
+  gap: 1rem;
+  width: 100%;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-me-details {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
 }

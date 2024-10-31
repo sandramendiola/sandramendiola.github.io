@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import CV from "./pages/CV/CV";
 import Publications from "./pages/Publications/Publications";
+import CommunityEngagement from "./pages/CommunityEngagement/CommunityEngagement";
+import ContactMe from "./pages/ContactMe/ContactMe";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -21,6 +23,14 @@ const router = createBrowserRouter([
   {
     path: "/publications",
     element: <Publications />
+  },
+  {
+    path: "/community-engagement",
+    element: <CommunityEngagement />,
+  },
+  {
+    path: "/contact-me",
+    element: <ContactMe />,
   }
 ])
 
