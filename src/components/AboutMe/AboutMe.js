@@ -26,9 +26,7 @@ const AboutMe = () => {
           modeling, in order to understand how we can leverage insect symbionts for vector control.
         </p>
       </div>
-      <div className="about-me-pic">
-        <img src={Sandra} alt="Sandra Mendiola" height={700} width={600}/>
-      </div>
+      <img className="about-me-pic" src={Sandra} alt="Sandra Mendiola" />
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from "./Navbar";
+import HamburgerMenu from "./HamburgerMenu";
 
 const Header = () => {
   return (
@@ -7,6 +8,7 @@ const Header = () => {
       <div className="header">
         <div className="name">Sandra Y Mendiola</div>
         <Navbar />
+        <HamburgerMenu />
       </div>
     </>
   )
