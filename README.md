@@ -1,3 +1,11 @@
+# Deployment Process
+You can make whatever changes you would like and send them up to the remote main branch.
+But if you actually want the gh-pages branch to update, you just need to do the following:
+
+npm run deploy
+
+This uses the gh-pages package to deploy your built pages to your remote gh-pages branch.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
