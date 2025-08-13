@@ -1,5 +1,5 @@
 import React from 'react';
-import Sandra from '../../assets/Mendiola_Sandra_PBEE.jpg';
+import Sandra from '../../assets/Sandra_2025_0Y1A1962.jpg';
 
 const AboutMe = () => {
   return (
