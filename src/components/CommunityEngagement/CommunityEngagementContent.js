@@ -1,7 +1,7 @@
 import React from 'react';
 import EDGETabling from '../../assets/edge_ambassador_tabling.png';
 import PBEEShirtBack from '../../assets/pbeeshirtback.png';
-import EmorySACNASPres from '../../assets/emory_sacnas_pres.png';
+import EmorySACNASPres from '../../assets/sacnas_2025.jpg';
 
 const CommunityEngagementContent = () => {
   return (
@@ -28,15 +28,24 @@ const CommunityEngagementContent = () => {
               Population Biology, Ecology, and Evolution Student Leader
             </div>
             <p>
-              I have played an extensive role in student life within my graduate program. As the elected representative, I advocated for students as part of the PBEE Executive Committee for two years. I have also served as a member of the Seminar Committee which facilitates our program’s weekly seminars. I also helped establish our program’s Diversity, Equity, and Inclusion (DEI) Committee and developed programming on DEI Issues for students and faculty.
+              I have played an extensive role in student life within my graduate program. As the elected representative,
+              I advocated for students as part of the PBEE Executive Committee for two years. I have also served as a
+              member of the Seminar Committee which facilitates our program’s weekly seminars. I also helped establish
+              our program’s Diversity, Equity, and Inclusion (DEI) Committee and developed programming on DEI Issues for
+              students and faculty.
             </p>
           </div>
           <div className="sacnas-president" id="explain3">
             <div className="community-engagement-header">
-              Emory SACNAS Chapter President
+              SACNAS Chapter President
             </div>
             <p>
-              I have served as president of the Emory Chapter of the Society for the Advancement of Chicanos/Hispanics and Native Americans in Science (SACNAS) since 2019.  As president, I lead the organization of events that foster our mission of building community and providing professional development opportunities for underrepresented students in STEM, particularly Latinx and Native American Students.
+              I served as president of the Emory Chapter of the Society for the Advancement of Chicanos/Hispanics and
+              Native Americans in Science (SACNAS) from 2019 to 2023 . As president, I lead the organization of events
+              that foster our mission of building community and providing professional development opportunities for
+              underrepresented students in STEM. As a postdoc, I led the effort to establish the <a href="https://sites.google.com/view/georgiasacnaschapter/home?pli=1&authuser=0" target="_blank" rel="noopener noreferrer">Georgia SACNAS
+              Professional Chapter</a> in 2024 which aims to provide support and community for professionals in the state
+              of Georgia.
             </p>
           </div>
         </div>

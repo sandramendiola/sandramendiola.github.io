@@ -45,7 +45,7 @@ const HamburgerMenu = () => {
         <MenuItem
           onClick={
             () => {
-              window.location.href = "https://scholar.google.com/citations?hl=en&oi=ao&user=RuAHgscAAAAJ"
+              window.open("https://scholar.google.com/citations?hl=en&oi=ao&user=RuAHgscAAAAJ", "_blank", "noopener,noreferrer");
               handleClose()
             }
           }>Google Scholar</MenuItem>
