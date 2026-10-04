@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.07788212.css",
-    "main.js": "/static/js/main.f6813395.js",
+    "main.css": "/static/css/main.33b01185.css",
+    "main.js": "/static/js/main.104a91f3.js",
     "static/js/453.8e0326b6.chunk.js": "/static/js/453.8e0326b6.chunk.js",
+    "static/media/sacnas_2025.jpg": "/static/media/sacnas_2025.99ada357837927b9c94a.jpg",
     "static/media/Sandra_2025_0Y1A1962.jpg": "/static/media/Sandra_2025_0Y1A1962.c29862d4012a7251637b.jpg",
     "static/media/adults.png": "/static/media/adults.62abfacc407682d87081.png",
-    "static/media/full_life_cycle.png": "/static/media/full_life_cycle.a463632edb27bcab8366.png",
-    "static/media/emory_sacnas_pres.png": "/static/media/emory_sacnas_pres.63ff10e32c0d9018ad93.png",
     "static/media/nymphs.png": "/static/media/nymphs.9700f26433a4c6148045.png",
     "static/media/edge_ambassador_tabling.png": "/static/media/edge_ambassador_tabling.bc09a8b118183882e46f.png",
     "static/media/pbeeshirtback.png": "/static/media/pbeeshirtback.eee74fcb773e63281f86.png",
     "static/media/4ths.png": "/static/media/4ths.cf079d35365725eb9332.png",
     "static/media/sandra_finding_bug.jpg": "/static/media/sandra_finding_bug.1d17e2d9571db67483c9.jpg",
     "index.html": "/index.html",
-    "main.07788212.css.map": "/static/css/main.07788212.css.map",
-    "main.f6813395.js.map": "/static/js/main.f6813395.js.map",
+    "main.33b01185.css.map": "/static/css/main.33b01185.css.map",
+    "main.104a91f3.js.map": "/static/js/main.104a91f3.js.map",
     "453.8e0326b6.chunk.js.map": "/static/js/453.8e0326b6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07788212.css",
-    "static/js/main.f6813395.js"
+    "static/css/main.33b01185.css",
+    "static/js/main.104a91f3.js"
   ]
 }
