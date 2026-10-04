@@ -13,11 +13,11 @@ const AboutMe = () => {
         </p>
         <p>
           I have a PhD in Population Biology, Ecology, and Evolution from Emory University where I worked in the Gerardo
-          and Civitello labs. My doctoral work focused on how bacterial symbionts in the genus Caballeronia alter the
-          ability of squash bugs (Anasa tristis) to vector Serratia marcescens to cucurbit plants. My work studying the
+          and Civitello labs. My doctoral work focused on how bacterial symbionts in the genus <i>Caballeronia</i> alter the
+          ability of squash bugs (<i>Anasa tristis</i>) to vector <i>Serratia marcescens</i> to cucurbit plants. My work studying the
           tripartite interactions between insect, symbiont, and pathogen spans multiple scales of biological
           organization. I have leveraged methods in transcriptomics, microbial ecology, and mathematical modeling to
-          paint a full picture of how Caballeronia symbionts interface with squash bugs and S. marcescens and the
+          paint a full picture of how <i>Caballeronia</i> symbionts interface with squash bugs and <i>S. marcescens</i> and the
           consequences of those interactions on pathogen transmission at the population-level.
         </p>
         <p>

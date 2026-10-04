@@ -44,6 +44,9 @@ const CVContent = () => {
         </AccordionSummary>
         <AccordionDetails>
           <div className="accordion-details">
+            <p>NIH, Postdoctoral Training in Tropical and Emerging Global Disease at UGA, current</p>
+            <p>American Society for Microbiology, MOSAIC Scholars Cohort 3, 2026</p>
+            <p>SACNAS Postdoctoral Leadership Institute, 2025</p>
             <p>NSF Postdoctoral Fellowship in Biology, 2024</p>
             <p>Kharen Fulton Diversity Graduate Award, 2022</p>
             <p>Entomological Society of America Rising Star Award, 2022</p>
@@ -81,7 +84,7 @@ const CVContent = () => {
         </AccordionDetails>
       </Accordion>
       <Button variant="contained"
-              href="https://drive.google.com/file/d/1aKr0HQhIOqsLxR25BNOv9HBWgjezs_dW/view?usp=sharing"
+              href="https://drive.google.com/file/d/1mOcz7Cojstoz0IK2XIx4Bq87h6Jm3IgZ/view?usp=sharing"
               className="full-cv-button"
               sx={{
                 width: 200,

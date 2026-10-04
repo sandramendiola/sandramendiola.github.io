@@ -5,7 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from "react-router-dom";
 import CV from "./pages/CV/CV";
-import Publications from "./pages/Publications/Publications";
 import CommunityEngagement from "./pages/CommunityEngagement/CommunityEngagement";
 import ContactMe from "./pages/ContactMe/ContactMe";
 
@@ -19,10 +18,6 @@ const router = createBrowserRouter([
   {
     path: "/smendiola-cv",
     element: <CV />,
-  },
-  {
-    path: "/publications",
-    element: <Publications />
   },
   {
     path: "/community-engagement",

@@ -140,11 +140,6 @@ img {
   flex-direction: column;
 }
 
-.publications-content {
-  margin: 0 80px 80px 80px;
-  flex-direction: column;
-}
-
 .accordion-header {
   font-family: "Poppins", sans-serif;
   font-size: calc(0.6vw + 1rem);
@@ -238,48 +233,94 @@ img {
   font-size: calc(0.6vw + 1rem);
 }
 
-.contact-me-details {
+.contact-me-section {
+  margin: 80px;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-me-container {
+  align-items: center;
+}
+
+.contact-me-pic-new {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  margin: 0 auto;
+}
+
+.contact-header {
+  font-size: 3rem !important;
+  margin-bottom: 24px !important;
+}
+
+.contact-intro {
+  font-weight: 300 !important;
+  line-height: 1.6 !important;
+  margin-bottom: 40px !important;
+  max-width: 500px;
+}
+
+.contact-methods {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  gap: 24px;
+}
+
+.contact-method-item {
+  display: flex;
   align-items: center;
-  justify-content: center;
+  gap: 16px;
 }
 
-.get-in-touch {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: calc(2vw + 1rem);
-  margin-top: 20px;
+.contact-icon {
+  font-size: 2rem !important;
+  color: #555;
 }
 
-.contact-detail {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: calc(0.6vw + 0.5rem);
-  margin-top: 10px;
+.contact-label {
+  font-weight: 500 !important;
+  color: #777;
+  text-transform: uppercase;
+  font-size: 0.75rem !important;
+  letter-spacing: 1px;
 }
 
-@media screen and (max-width: 1023px) {
-  .contact-me {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.contact-link {
+  color: #000 !important;
+  text-decoration: none !important;
+  font-size: 1.1rem !important;
+  font-weight: 400 !important;
+}
 
-    .contact-me-pic {
-      width: 40vw;
-      height: 40vw;
-      margin-top: 20px;
-      align-items: center;
-      justify-content: center;
-    }
+.contact-link:hover {
+  text-decoration: underline !important;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-me-section {
+    margin: 40px 20px;
   }
-}
-
-@media screen and (min-width: 1024px) {
-  .contact-me {
+  
+  .contact-me-image-container {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .contact-header {
+    text-align: center;
+    font-size: 2.5rem !important;
+  }
+  
+  .contact-intro {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact-methods {
+    align-items: center;
   }
 }
